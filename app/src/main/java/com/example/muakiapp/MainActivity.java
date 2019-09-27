@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
 
         TextView numbers = findViewById(R.id.numbers);
 
-        numbers.setOnClickListener(new View.OnClickListener(){
+        numbers.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
-                Intent numbersIntent = new Intent(MainActivity.this,NumbersActivity.class);
+            public void onClick(View view) {
+                Intent numbersIntent = new Intent(MainActivity.this, NumbersActivity.class);
                 startActivity(numbersIntent);
             }
         });
@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
 
         TextView colors = findViewById(R.id.colors);
 
-        colors.setOnClickListener(new View.OnClickListener(){
+        colors.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
-                Intent colorsIntent = new Intent(MainActivity.this,ColorsActivity.class);
+            public void onClick(View view) {
+                Intent colorsIntent = new Intent(MainActivity.this, ColorsActivity.class);
                 startActivity(colorsIntent);
             }
         });
@@ -39,10 +39,10 @@ public class MainActivity extends AppCompatActivity {
 
         TextView phrases = findViewById(R.id.phrases);
 
-        phrases.setOnClickListener(new View.OnClickListener(){
+        phrases.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
-                Intent phrasesIntent = new Intent(MainActivity.this,PhrasesActivity.class);
+            public void onClick(View view) {
+                Intent phrasesIntent = new Intent(MainActivity.this, PhrasesActivity.class);
                 startActivity(phrasesIntent);
             }
         });
@@ -50,14 +50,13 @@ public class MainActivity extends AppCompatActivity {
 
         TextView family = findViewById(R.id.family);
 
-        family.setOnClickListener(new View.OnClickListener(){
+        family.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
-                Intent familyIntent= new Intent(MainActivity.this,FamilyActivity.class);
+            public void onClick(View view) {
+                Intent familyIntent = new Intent(MainActivity.this, FamilyActivity.class);
                 startActivity(familyIntent);
             }
         });
-
 
 
     }
